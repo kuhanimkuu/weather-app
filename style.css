@@ -1,27 +1,80 @@
-body{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    display: flex;
     justify-content: center;
-    background-color:rgb(40, 37, 37) ;
-}
-.display{
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    background-color: rgb(144, 137, 137);
-    border-radius: 20px;
-    gap:20px;
-}
-.display-elements{
-    
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    background-color: white;
-    padding:5px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .display {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
     border-radius: 20px;
-}
-.city{
-    background-color: rgb(206, 193, 193);
-}
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  input.location {
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  button#submit {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    background-color: #00bcd4;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button#submit:hover {
+    background-color: #0097a7;
+  }
+  
+  .display-elements {
+    margin-top: 1.5rem;
+  }
+  
+  .weather > div {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  
+  .city {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .speed {
+    margin-top: 1rem;
+    font-style: italic;
+  }
+  
