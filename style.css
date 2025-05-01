@@ -77,4 +77,16 @@ body {
     margin-top: 1rem;
     font-style: italic;
   }
+  #loader {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ffeb3b;
+    animation: pulse 1s infinite;
+  }
   
+  @keyframes pulse {
+    0% { opacity: 0.2; }
+    50% { opacity: 1; }
+    100% { opacity: 0.2; }
+  }
